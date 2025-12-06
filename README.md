@@ -2,7 +2,7 @@
 
 Een interactieve verrassingskalender web applicatie met 10.000 krasvakjes gebouwd met Vue 3 en TypeScript.
 
-**[Live Demo](https://verrassingskalender.hamoen.info)**
+**[Live Demo](https://hamoen.info/verrassingskalender)**
 
 ## Usecase
 
