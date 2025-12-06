@@ -1,0 +1,9 @@
+@mixin green-pattern-background {
+  background-color: #00ab39;
+  opacity: 0.8;
+  background:
+    linear-gradient(135deg, #00bc3e55 25%, transparent 25%) -10px 0/ 20px 20px,
+    linear-gradient(225deg, #00bc3e 25%, transparent 25%) -10px 0/ 20px 20px,
+    linear-gradient(315deg, #00bc3e55 25%, transparent 25%) 0px 0/ 20px 20px,
+    linear-gradient(45deg, #00bc3e 25%, #00ab39 25%) 0px 0/ 20px 20px;
+}

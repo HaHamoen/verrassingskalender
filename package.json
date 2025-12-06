@@ -1,0 +1,46 @@
+{
+  "name": "verrassingskalender",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Een interactieve verrassingskalender web applicatie met 10.000 krasvakjes gebouwd met Vue 3 en TypeScript.",
+  "author": "Hahamoen",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@tanstack/vue-virtual": "^3.13.12",
+    "canvas-confetti": "^1.9.4",
+    "pinia": "^3.0.4",
+    "scratchcard-js": "^1.5.5",
+    "vue": "^3.5.24",
+    "vuetify": "^3.11.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^24.10.1",
+    "@typescript-eslint/eslint-plugin": "^8.48.0",
+    "@typescript-eslint/parser": "^8.48.0",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/eslint-config-prettier": "^10.2.0",
+    "@vue/eslint-config-typescript": "^14.6.0",
+    "@vue/tsconfig": "^0.8.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-vue": "^10.6.2",
+    "globals": "^16.5.0",
+    "prettier": "^3.7.3",
+    "sass": "^1.94.2",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4",
+    "vite-plugin-vuetify": "^2.1.2",
+    "vue-tsc": "^3.1.4"
+  }
+}

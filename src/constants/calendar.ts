@@ -1,0 +1,27 @@
+// JACKPOT PRICE VALUES
+export const PRIZE_JACKPOT = 25000;
+export const PRIZE_SMALL_JACKPOT = 100;
+export const PRIZE_EMPTY = 0;
+
+// JACKPOT COUNT
+export const COUNT_JACKPOT = 1;
+export const COUNT_SMALL_JACKPOT = 100;
+
+// JACKPOT CONFETTI
+export const JACKPOT_CONFETTI_DURATION = 15000;
+
+// GRID SIZE
+export const GRID_SIZE_ROW = 100;
+export const GRID_SIZE_COLUMN = 100;
+
+// CELL DIMENSIONS
+export const CELL_HEIGHT = 50;
+export const CELL_WIDTH = 50;
+
+// VISITOR GUESSES
+export const VISITOR_GUESSES_SPEED_MIN = 50;
+export const VISITOR_GUESSES_SPEED_MAX = 300;
+
+// USER ALLOWED GUESSES
+export const USER_ALLOWED_GUESSES = 1;
+export const USER_ALLOWED_GUESSES_DEBUG = 10;
