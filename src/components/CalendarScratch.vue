@@ -61,7 +61,7 @@
       scratchType: SCRATCH_TYPE.CIRCLE,
       containerWidth: 300,
       containerHeight: 200,
-      imageForwardSrc: '/scratchcard.png',
+      imageForwardSrc: `${import.meta.env.BASE_URL}scratchcard.png`,
       imageBackgroundSrc: '',
       htmlBackground: `<div class="scratch-content"><h1>${content}</h1></div>`,
       brushSrc: '',

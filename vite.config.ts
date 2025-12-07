@@ -5,6 +5,7 @@ import { fileURLToPath, URL } from 'node:url';
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/verrassingskalender/',
   plugins: [vue(), vuetify({ autoImport: true })],
   resolve: {
     alias: {
